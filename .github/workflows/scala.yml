@@ -22,5 +22,3 @@ jobs:
       run: sbt test
     - name: Run package
       run: sbt package
-    - name: Run assembly
-      run: sbt assembly
