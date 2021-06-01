@@ -43,8 +43,8 @@ object Board {
   def showboard() = {
     for ( i <- 0 to 7) {
       for ( j <- 0 to 7) {
-        val piece = board(i)(j).getOrElse(new NoPiece())
-        print( (if (piece.color.equals('B'))  scala.Console.BLUE else Console.RED ) + piece.Initial)
+        val piece = board(i)(j).getOrElse(new NoPiece() )
+        print( (if (piece.color.equals('B'))  scala.Console.BLUE else Console.RED ) + piece.toString)
       }
       println()
     }

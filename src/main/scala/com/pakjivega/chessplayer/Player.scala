@@ -6,7 +6,7 @@ object Player {
     Board.initialBoard()
     Board.showboard()
 
-    
+
 
   }
   def hello(): String = {

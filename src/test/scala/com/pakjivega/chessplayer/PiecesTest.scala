@@ -9,7 +9,7 @@ class PiecesTest extends AnyFlatSpec with Matchers{
   "The bishop " should "values more than pawn" in {
     val bishop = new Bishop(color = 'B')
     val pawn = new Pawn(color = 'B')
-    bishop.Value should be > pawn.Value
+    bishop.value should be > pawn.value
   }
 
 }
